@@ -72,29 +72,22 @@ header .links-container li a {
 }
 
 .home {
-  background: rgb(255, 208, 96);
-  background: radial-gradient(
-    circle,
-    rgba(255, 208, 96, 1) 0%,
-    rgba(252, 70, 107, 1) 100%
-  );
+  background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .about {
-  background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 212, 255, 1) 0%,
-    rgba(62, 62, 213, 1) 100%
-  );
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .contact {
-  background: rgb(242, 200, 255);
-  background: radial-gradient(
-    circle,
-    rgba(242, 200, 255, 1) 0%,
-    rgba(129, 175, 255, 1) 100%
-  );
+  background: #C04848;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
